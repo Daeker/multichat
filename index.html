@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>MultiChat</title>
+
+<link rel="stylesheet" type="text/css" href="styles/index.css">
+
+<script src="scripts/input.js"></script>
+<script src="scripts/chat.js"></script>
+
+</head>
+
+<body>
+
+<div id="formDiv">
+  <form id="chForm" onsubmit="return showChats();">
+    <div>
+      <button onclick="return addInput();">Add</button>
+      <button class="lastBtn" onclick="return remInput();">Remove</button>
+    </div>
+    <div id="inptDiv">
+      <input type="text" name="channel" placeholder="Channel Name"><br>
+    </div>
+    <button id="load" form="chForm">Load Chats</button>
+  </form>
+</div>
+
+</body>
+</html>

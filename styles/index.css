@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+.chatClass {
+  height: 90%;
+  border: none;
+}
+.nameClass{
+  width: 100%;
+  background-color: #6441A4;
+  border: none;
+  color: #D3CAE8;
+  margin: 0;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#formDiv{
+  max-width: 250px;
+}
+button{
+  width: 49%;
+  background-color: #6441A4;
+  border: none;
+  color: #D3CAE8;
+  padding: 8px 0;
+  margin: 2px 0;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input{
+  width: 100%;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+#load{
+  width: 100%;
+}
+.lastBtn{
+  margin-left: 2%;
+}
